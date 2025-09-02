@@ -1,6 +1,9 @@
-import app from './app.js'
+// biome-ignore assist/source/organizeImports: import order handled manually
+import dotenv from 'dotenv';
+import app from './app.js';
+dotenv.config();
 
-const PORT = 3001
+const PORT = Number(process.env.PORT);
 
 const startServer = async () => {
 
