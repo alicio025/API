@@ -15,7 +15,7 @@ export const getCategories = async (
         _reply.send(_categories);
 
     } catch(_err){
-        _request.log.error("Erro ao buscar categorias",);
+        _request.log.error("Erro ao buscar categorias");
         _reply.status(500).send({ message: "Erro ao buscar categorias" });
 
     }
