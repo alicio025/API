@@ -889,6 +889,11 @@ webidl-conversions@^7.0.0:
     tr46 "^5.1.0"
     webidl-conversions "^7.0.0"
 
+zod-json-schema@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/zod-json-schema/-/zod-json-schema-0.0.1.tgz#e7c2b009d08379c18eedaa207485adbf1a8089f0"
+  integrity sha512-gzjqGBgf73vpkgbnyKu9bvQQCssivD2lAZkIRTgmEELx1T+KbKZi8E+Z2RfXp5X8GR3kGLIKtDIRjnS1i/4HBQ==
+
 zod@^4.1.11:
   version "4.1.11"
   resolved "https://registry.npmjs.org/zod/-/zod-4.1.11.tgz"
